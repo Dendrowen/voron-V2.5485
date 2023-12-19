@@ -1,6 +1,3 @@
-[include mmu/base/*.cfg]
-[include mmu/optional/client_macros.cfg]
-[include mmu/optional/mmu_menu.cfg]
 [mcu]
 ##  Obtain definition by "ls -l /dev/serial/by-id/" then unplug to verify
 ##--------------------------------------------------------------------
@@ -24,9 +21,9 @@ canbus_uuid: efb893a4a197
 [include config/mainsail.cfg]
 [include config/timelapse.cfg]
 
-# [include ercf/ercf_hardware.cfg]
-# [include ercf/ercf_software.cfg]
-# [include ercf/ercf_parameters.cfg]
+[include ercf/ercf_hardware.cfg]
+[include ercf/ercf_software.cfg]
+[include ercf/ercf_parameters.cfg]
 
 [include macros/*.cfg]
 
