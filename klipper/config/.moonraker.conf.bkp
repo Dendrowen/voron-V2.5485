@@ -7,6 +7,9 @@ klippy_uds_address = ~/printer_data/comms/klippy.sock
 [file_manager]
 enable_object_processing = True
 
+[mmu_server]
+enable_file_preprocessor = True
+
 [authorization]
 cors_domains = 
 	https://my.mainsail.xyz
@@ -88,9 +91,6 @@ origin = https://github.com/moggieuk/Happy-Hare.git
 primary_branch = main
 install_script = install.sh
 managed_services = klipper
-
-[mmu_server]
-enable_file_preprocessor = False
 
 [update_manager mobileraker]
 type = git_repo
