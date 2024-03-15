@@ -9,6 +9,7 @@ enable_object_processing = True
 
 [mmu_server]
 enable_file_preprocessor = True
+enable_toolchange_next_pos = True
 
 [authorization]
 cors_domains = 
