@@ -24,7 +24,7 @@ gcode:
 
   _BLOBIFIER_SAFE_DESCEND
 
-  SET_LED LED="chamber_leds" RED=0.6 GREEN=0.8 BLUE=1 SYNC=0 TRANSMIT=1
+  # SET_LED LED="chamber_leds" RED=0.6 GREEN=0.8 BLUE=1 SYNC=0 TRANSMIT=1
 
   # Set the electronics temperature a bit lower
   SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=electronics TARGET=55
